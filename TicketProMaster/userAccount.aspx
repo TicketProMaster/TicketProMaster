@@ -43,7 +43,7 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:TextBox ID="txtFName" runat="server">&quot;First Name&quot;</asp:TextBox>
+                    <asp:Label ID="lblFName" runat="server" Text="&quot;First Name&quot;"></asp:Label>
                 </td>
                 <td>
                     <input id="txtNewFName" placeholder="Change First Name" type="text" /></td>
@@ -51,7 +51,7 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:TextBox ID="txtLName" runat="server">&quot;Last Name&quot;</asp:TextBox>
+                    <asp:Label ID="lblLName" runat="server" Text="&quot;Last Name&quot;"></asp:Label>
                 </td>
                 <td>
                     <input id="TxtNewLName" placeholder="Change Last Name" type="text" /></td>
@@ -59,7 +59,7 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:TextBox ID="txtPhoneNum" runat="server">&quot;Phone Number&quot;</asp:TextBox>
+                    <asp:Label ID="lblPhoneNum" runat="server" Text="&quot;Phone Number&quot;"></asp:Label>
                 </td>
                 <td>
                     <input id="txtNewPhoneNum" placeholder="New Phone Number" type="text" /></td>
@@ -67,7 +67,7 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:TextBox ID="txtAddress" runat="server" OnTextChanged="txtFName2_TextChanged">&quot;Address&quot;</asp:TextBox>
+                    <asp:Label ID="lblAddress" runat="server" Text="&quot;Address&quot;"></asp:Label>
                 </td>
                 <td>
                     <input id="txtNewAddress" placeholder="New Address" type="text" /></td>
