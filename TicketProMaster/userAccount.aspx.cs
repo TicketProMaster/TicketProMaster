@@ -9,11 +9,18 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
 
     }
 
     protected void txtFName2_TextChanged(object sender, EventArgs e)
     {
 
+    }
+
+    protected void CustomValidator1_ServerValidate(object source, ServerValidateEventArgs args)
+    {
+        
+        
     }
 }
