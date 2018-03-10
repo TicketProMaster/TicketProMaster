@@ -51,7 +51,7 @@
                     <asp:TextBox ID="txtNewUserName" runat="server" ToolTip="Username must include " Width="227px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" BorderStyle="None" ControlToValidate="txtNewUserName" Display="Dynamic" EnableTheming="True" ErrorMessage="Please follow required username format!" ValidationExpression="[a-zA-Z0-9]"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" BorderStyle="None" ControlToValidate="txtNewUserName" Display="Dynamic" EnableTheming="True" ErrorMessage="Please follow required username format!" ValidationExpression="^[a-zA-Z]\w"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
@@ -59,15 +59,15 @@
                     <asp:Label ID="lblNewpassword" runat="server" Text="New Password:"></asp:Label>
                 </td>
                 <td class="auto-style8">
-                    <asp:TextBox ID="txtNewPassword" runat="server" TextMode="Password" ToolTip="Must be 8 to 16 characters long. Must start with a letter. Has at least one special character and number" Width="224px">New Password</asp:TextBox>
+                    <asp:TextBox ID="txtNewPassword" runat="server" TextMode="Password" ToolTip="Must be 8 to 16 characters long. Must start with a letter. Has at least one special character and number" Width="227px">New Password</asp:TextBox>
                 </td>
                 <td class="auto-style9">
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" BorderStyle="None" ControlToValidate="txtNewPassword" Display="Dynamic" EnableTheming="True" ErrorMessage="Please follow required password format!" ValidationExpression="[@#$%^&amp;*/][a-zA-Z]{8,16}"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" BorderStyle="None" ControlToValidate="txtNewPassword" Display="Dynamic" EnableTheming="True" ErrorMessage="Please follow required password format!" ValidationExpression="[@#$%^&amp;*/a-zA-Z]{8,16}"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:Label ID="lblConfirmNewPassword" runat="server" Text="Confirm Password;"></asp:Label>
+                    <asp:Label ID="lblConfirmNewPassword" runat="server" Text="Confirm Password:"></asp:Label>
                 </td>
                 <td class="auto-style3">
                     <asp:TextBox ID="txtNewPasswordConfirm" runat="server" TextMode="Password" ToolTip="Must be 8 to 16 characters long. Must start with a letter. Has at least one special character and number" Width="227px">Confirm New Password</asp:TextBox>
