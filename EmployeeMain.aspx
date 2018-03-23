@@ -1,11 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Information.aspx.cs" Inherits="Information" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="EmployeeMain.aspx.cs" Inherits="EmployeeMain" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Ticket Pro Master - Information</title>
+    <title>Ticket Pro Master - Employee Main Page</title>
     <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+    <!--This page loads on login if it confirms the user is an Employee type user -->
 </head>
 <body>
     <form id="form1" runat="server">
@@ -27,12 +28,11 @@
                 <div id="clearfix">
                     <div id="content">
                     </div>
-                </div>
-                <hr/>
+                    <hr/>
                 <footer>
                     &nbsp;
                     &nbsp;
-                    <table align="center" class="auto-style1">
+                    <table>
                         <tr>
                             <td class="auto-style2">Charles Santiago - 101084441</td>
                             <td class="auto-style2">Nolan Honey - XXXXXXXX</td>
@@ -45,6 +45,8 @@
                         </tr>
                     </table>
                 </footer>
+                </div>
+                <hr/>
             </div>
         </div>
     </form>
