@@ -134,7 +134,7 @@
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style3">
                     <input id="btnSubmitUserAccountChanges" type="submit" value="submit" /></td>
-                <td>&nbsp;</td>
+                <td>a thing</td>
             </tr>
         </table>
     </form>
