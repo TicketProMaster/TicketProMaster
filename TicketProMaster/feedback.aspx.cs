@@ -19,6 +19,6 @@ public partial class feedback : System.Web.UI.Page
 
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
-
+        Server.Transfer("feedback.aspx");
     }
 }
