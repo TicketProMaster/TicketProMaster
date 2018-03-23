@@ -63,7 +63,7 @@
                     <asp:TextBox ID="txtNewUserName" runat="server" ToolTip="Username must include " Width="227px"></asp:TextBox>
                 </td>
                 <td>
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" BorderStyle="None" ControlToValidate="txtNewUserName" Display="Dynamic" EnableTheming="True" ErrorMessage="Please follow required username format!" ValidationExpression="[a-zA-Z]*\w"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" BorderStyle="None" ControlToValidate="txtNewUserName" Display="Dynamic" EnableTheming="True" ErrorMessage="Please follow required username format!" ValidationExpression="[a-zA-Z]+\w"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
@@ -74,7 +74,7 @@
                     <asp:TextBox ID="txtNewPassword" runat="server" TextMode="Password" ToolTip="Must be 8 to 16 characters long. Must start with a letter. Has at least one special character and number" Width="227px">New Password</asp:TextBox>
                 </td>
                 <td class="auto-style9">
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" BorderStyle="None" ControlToValidate="txtNewPassword" Display="Dynamic" EnableTheming="True" ErrorMessage="Please follow required password format!" ValidationExpression="[a-zA-Z](?=.*?[A-Za-z])(?=.*?[0-9])(?=.*?[!*]).{7,15}$"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" BorderStyle="None" ControlToValidate="txtNewPassword" Display="Dynamic" EnableTheming="True" ErrorMessage="Please follow required password format!" ValidationExpression="^[a-zA-Z](?=.+[A-Za-z])(?=.+[0-9])(?=.+[!*]).{7,15}$"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
@@ -86,7 +86,7 @@
                 </td>
                 <td class="auto-style12">
                     <asp:CompareValidator ID="valMatchPasswords" runat="server" ControlToCompare="txtNewPassword" ControlToValidate="txtNewPasswordConfirm" Display="Dynamic" ErrorMessage="Passwords do not match!"></asp:CompareValidator>
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="txtNewPasswordConfirm" Display="Dynamic" ErrorMessage="Please follow required username format!" ValidationExpression="[a-zA-Z](?=.*?[A-Za-z])(?=.*?[0-9])(?=.*?[!*]).{7,15}$"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="txtNewPasswordConfirm" Display="Dynamic" ErrorMessage="Please follow required username format!" ValidationExpression="^[a-zA-Z](?=.+[A-Za-z])(?=.+[0-9])(?=.+[!*]).{7,15}$"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
