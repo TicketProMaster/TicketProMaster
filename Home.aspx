@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-      <title></title>
+      <title>Ticket Pro Master - Home</title>
       <link rel="stylesheet" type="text/css" href="styles/main.css"/>
       <style type="text/css">
           .auto-style1 {
@@ -27,7 +27,7 @@
                     <ul>
                         <li><a href="Home.aspx">Home</a></li>
                         <li><a href="Information.aspx">Information</a></li>
-                        <li><a href="Feedback.aspx">Feedback</a></li>
+                        <li><a href="feedback.aspx">Feedback</a></li>
                         <li><a href="AboutUs.aspx">About Us</a></li>
                         <li><a href="RegisterLogin.aspx">Register/Login</a></li>
                     </ul>

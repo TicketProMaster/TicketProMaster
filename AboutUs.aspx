@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Information.aspx.cs" Inherits="Information" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AboutUs.aspx.cs" Inherits="AboutUs" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Ticket Pro Master - Information</title>
+    <title>Ticket Pro Master - About Us</title>
     <link rel="stylesheet" type="text/css" href="styles/main.css"/>
 </head>
 <body>
@@ -32,7 +32,7 @@
                 <footer>
                     &nbsp;
                     &nbsp;
-                    <table align="center" class="auto-style1">
+                    <table>
                         <tr>
                             <td class="auto-style2">Charles Santiago - 101084441</td>
                             <td class="auto-style2">Nolan Honey - XXXXXXXX</td>
