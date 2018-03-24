@@ -56,7 +56,7 @@
                     <asp:TextBox ID="txtNameBox" runat="server" Height="33px"></asp:TextBox>
                 </td>
                 <td class="auto-style4">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" Display="Dynamic" ErrorMessage="Please enter your name!"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtNameBox" Display="Dynamic" ErrorMessage="Please enter your name!"></asp:RequiredFieldValidator>
                 </td>
                 <td class="auto-style4"></td>
             </tr>
@@ -91,19 +91,13 @@
                     <asp:Label ID="lblComments" runat="server" Text="Any Additional Comments?"></asp:Label>
                 </td>
                 <td class="auto-style11">
-                    <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="Submit" />
-                </td>
+                    &nbsp;</td>
                 <td class="auto-style11"></td>
             </tr>
-            <tr>
-                <td class="auto-style5">
-                    <textarea id="txtaCommentBox" class="auto-style1" name="S1" rows="1"></textarea></td>
-                <td class="auto-style6">
-                    <br />
-                </td>
-                <td class="auto-style6"></td>
-            </tr>
-        </table>
+            </table>
+        <p>
+                    <textarea id="txtaCommentBox" class="auto-style1" name="S1" rows="1" cols="20"></textarea><asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="Submit" />
+                </p>
     </form>
 </body>
 </html>
