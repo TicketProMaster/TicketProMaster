@@ -29,7 +29,7 @@
                         <li><a href="Information.aspx">Information</a></li>
                         <li><a href="feedback.aspx">Feedback</a></li>
                         <li><a href="AboutUs.aspx">About Us</a></li>
-                        <li><a href="RegisterLogin.aspx">Register/Login</a></li>
+                        <li><a href="loginPage.aspx">Register/Login</a></li>
                     </ul>
                 </nav>
                 <div id="clearfix">
@@ -65,7 +65,9 @@
                     </tr>
                             <tr>
                         <td><h4>Zac Shaw - 101074878</h4>
-                            <p>Database Wizard level 24. Adept in Bootstrap artistry and mock-ups for HTML pages of the 5th version.
+                            <p>Zac Shaw was born in Toronto on April 12, 1994 and has lived there his whole life. At a young age his family was kidnapped by ninjas, 
+                                and he spent his youth selling mixtapes to fund his karate lessons. When his family unexpectedly returned a change in career paths led him to studying history, getting bored with it and went on to learn computer science instead. Now he spends his days lurking on messageboards and is in a committed relationship with Netflix, oreos and wearing sweatpants. He hopes to one day become the number 0 pokemon master in the Kanto region and cath all 151 pokemon.
+                                <p>*catch</p>
                             </p>
                         </td>
                     </tr>

@@ -9,7 +9,7 @@ public partial class TicketForm : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
+
     }
 
     protected void btnSubmitForm_Click(object sender, EventArgs e)

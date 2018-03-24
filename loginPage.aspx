@@ -4,25 +4,37 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 100%;
-        }
-        .auto-style3 {
-            width: 198px;
-            height: 45px;
-        }
-        .auto-style4 {
-            height: 23px;
-            width: 198px;
-        }
-    </style>
+      <title>Ticket Pro Master</title>
+      <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+      <style type="text/css">
+          .auto-style1 {
+              width: 100%;
+          }
+          .auto-style2 {
+              height: 26px;
+          }
+      </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form2" runat="server">
         <div>
-            <table class="auto-style1">
+            <div id="wrapper">
+                <header>
+                    <h1>Ticket Pro Master</h1>
+                    <h2>We Service All Cars</h2>
+                </header>
+                <nav id="mainMenu">
+                    <ul>
+                        <li><a href="Home.aspx">Home</a></li>
+                        <li><a href="Information.aspx">Information</a></li>
+                        <li><a href="feedback.aspx">Feedback</a></li>
+                        <li><a href="AboutUs.aspx">About Us</a></li>
+                        <li><a href="loginPage.aspx">Register/Login</a></li>
+                    </ul>
+                </nav>
+                <div id="clearfix">
+                    <div id="content">
+                        <table class="auto-style1">
                 <tr>
                     <td class="auto-style3">Username:<br />
                         <asp:TextBox ID="txtUsername" runat="server" Font-Names="Arial"></asp:TextBox>
@@ -38,21 +50,42 @@
                 </tr>
             </table>
         </div>
-        <asp:Button ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Login" Font-Bold="True" Font-Names="Arial" />
+        <asp:Button ID="Button1" runat="server" OnClick="btnLogin_Click" Text="Login" Font-Bold="True" Font-Names="Arial" />
         <table class="auto-style1">
             <tr>
                 <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtUsername" Display="Dynamic" ErrorMessage="Must enter a username" Font-Names="Calibri" ForeColor="#CC0000"></asp:RequiredFieldValidator>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtUsername" Display="Dynamic" ErrorMessage="Must begin with a letter and contain numbers" Font-Names="Calibri" ForeColor="#CC0000" ValidationExpression="^[a-zA-Z]{1}(?:[\da-z]+)$"></asp:RegularExpressionValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtUsername" Display="Dynamic" ErrorMessage="Must enter a username" Font-Names="Calibri" ForeColor="#CC0000"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="txtUsername" Display="Dynamic" ErrorMessage="Must begin with a letter and contain numbers" Font-Names="Calibri" ForeColor="#CC0000" ValidationExpression="^[a-zA-Z]{1}(?:[\da-z]+)$"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
                 <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtPassword" Display="Dynamic" ErrorMessage="Must enter a password" Font-Names="Calibri" ForeColor="#CC0000"></asp:RequiredFieldValidator>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtPassword" Display="Dynamic" ErrorMessage="Must start with a letter, contain 1 digit and special char (! or #)" Font-Names="Calibri" ForeColor="#CC0000" ValidationExpression="^[A-Za-z](?=.*[A-Za-z]+)(?=.*\d)(?=.*[!#]).{8,16}$"></asp:RegularExpressionValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtPassword" Display="Dynamic" ErrorMessage="Must enter a password" Font-Names="Calibri" ForeColor="#CC0000"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="txtPassword" Display="Dynamic" ErrorMessage="Must start with a letter, contain 1 digit and special char (! or #)" Font-Names="Calibri" ForeColor="#CC0000" ValidationExpression="^[A-Za-z](?=.*[A-Za-z]+)(?=.*\d)(?=.*[!#]).{8,16}$"></asp:RegularExpressionValidator>
                 </td>
             </tr>
         </table>
+                    </div>
+                </div>
+                <hr/>
+                <footer>
+                    &nbsp;
+                    &nbsp;
+                    <table align="center" class="auto-style1">
+                        <tr>
+                            <td class="auto-style2">Charles Santiago - 101084441</td>
+                            <td class="auto-style2">Nolan Honey - 101077205</td>
+                            <td class="auto-style2">Zach Shaw - 101074878</td>
+                        </tr>
+                        <tr>
+                            <td>Jarone Rodney - 101077225</td>
+                            <td>Jacky Phung - 100801047</td>
+                        </tr>
+                    </table>
+                </footer>
+            </div>
+        </div>
     </form>
 </body>
 </html>
+

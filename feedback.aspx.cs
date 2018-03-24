@@ -9,7 +9,7 @@ public partial class feedback : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
+        
     }
 
     protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
@@ -19,6 +19,6 @@ public partial class feedback : System.Web.UI.Page
 
     protected void btnSubmit_Click(object sender, EventArgs e)
     {
-        Server.Transfer("feedback.aspx");
+        Server.Transfer("feedBackConfirm.aspx");
     }
 }

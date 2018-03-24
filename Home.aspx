@@ -29,7 +29,7 @@
                         <li><a href="Information.aspx">Information</a></li>
                         <li><a href="feedback.aspx">Feedback</a></li>
                         <li><a href="AboutUs.aspx">About Us</a></li>
-                        <li><a href="RegisterLogin.aspx">Register/Login</a></li>
+                        <li><a href="loginPage.aspx">Register/Login</a></li>
                     </ul>
                 </nav>
                 <div id="clearfix">
