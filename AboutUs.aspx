@@ -59,7 +59,7 @@
                     </tr>
                             <tr>
                         <td><h4>Jarone Rodney - 101077225</h4>
-                            <p>I am responsible for coding the ticket for, cart system, and employee ticket.
+                            <p>Fighting game enthusiast who works overnight shifts yet still goes to school. Does not know the meaning of sleep.
                             </p>
                         </td>
                     </tr>
