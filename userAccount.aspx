@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Ticket Pro Master System</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css"/>
     <style type="text/css">
         .auto-style1 {
             width: 100%;
@@ -117,7 +117,7 @@
                     <asp:Label ID="lblPhoneNum" runat="server" Text="&quot;Phone Number&quot;"></asp:Label>
                 </td>
                 <td class="auto-style3">
-                    <asp:TextBox ID="txtNewPhoneNum" runat="server" TextMode="Phone">New Phone Number</asp:TextBox>
+                    <asp:TextBox ID="txtNewPhoneNum" runat="server">New Phone Number</asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>

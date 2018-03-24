@@ -41,7 +41,7 @@
                     </td>
                     <td rowspan="2">
                         Login Instructions<br />
-                        Enter your username (Ex. aaron19) and password into the text boxs. Once filled proceed to click the Login button. Please beaware your password must start with a letter, contain atleast one number, at least one symbol (# or !) and 8 to 16 characters long.</td>
+                        Enter your username (Ex. aaron19) and password into the text boxs. Once filled proceed to click the Login button. Please beaware your password must start with a letter, contain atleast one number, at least one symbol (* or !) and 8 to 16 characters long.</td>
                 </tr>
                 <tr>
                     <td class="auto-style4">Password:<br />
@@ -55,13 +55,13 @@
             <tr>
                 <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtUsername" Display="Dynamic" ErrorMessage="Must enter a username" Font-Names="Calibri" ForeColor="#CC0000"></asp:RequiredFieldValidator>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="txtUsername" Display="Dynamic" ErrorMessage="Must begin with a letter and contain numbers" Font-Names="Calibri" ForeColor="#CC0000" ValidationExpression="^[a-zA-Z]{1}(?:[\da-z]+)$"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="txtUsername" Display="Dynamic" ErrorMessage="Must begin with a letter" Font-Names="Calibri" ForeColor="#CC0000" ValidationExpression="[a-zA-Z]+\w"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
                 <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtPassword" Display="Dynamic" ErrorMessage="Must enter a password" Font-Names="Calibri" ForeColor="#CC0000"></asp:RequiredFieldValidator>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="txtPassword" Display="Dynamic" ErrorMessage="Must start with a letter, contain 1 digit and special char (! or #)" Font-Names="Calibri" ForeColor="#CC0000" ValidationExpression="^[A-Za-z](?=.*[A-Za-z]+)(?=.*\d)(?=.*[!#]).{8,16}$"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="txtPassword" Display="Dynamic" ErrorMessage="Must start with a letter, contain 1 digit and special char (! or *)" Font-Names="Calibri" ForeColor="#CC0000" ValidationExpression="^[A-Za-z](?=.*[A-Za-z])(?=.*\d)(?=.*[!*])[A-Za-z\d!*]{7,15}$"></asp:RegularExpressionValidator>
                 </td>
             </tr>
         </table>
