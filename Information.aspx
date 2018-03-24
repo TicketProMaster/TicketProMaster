@@ -1,52 +1,77 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Information.aspx.cs" Inherits="Information" %>
-
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Ticket Pro Master - Information</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css"/>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
+   <head runat="server">
+      <title>Ticket Pro Master - Information</title>
+      <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+      <style type="text/css">
+         .auto-style1 {
+         width: 100%;
+         }
+         .auto-style2 {
+         height: 26px;
+         }
+      </style>
+   </head>
+   <body>
+      <form id="form1" runat="server">
+         <div>
             <div id="wrapper">
-                <header>
-                    <h1>Ticket Pro Master</h1>
-                    <h2>We Service All Cars</h2>
-                </header>
-                <nav id="mainMenu">
-                    <ul>
-                        <li><a href="Home.aspx">Home</a></li>
-                        <li><a href="Information.aspx">Information</a></li>
-                        <li><a href="feedback.aspx">Feedback</a></li>
-                        <li><a href="AboutUs.aspx">About Us</a></li>
-                        <li><a href="RegisterLogin.aspx">Register/Login</a></li>
-                    </ul>
-                </nav>
-                <div id="clearfix">
-                    <div id="content">
-                    </div>
-                </div>
-                <hr/>
-                <footer>
-                    &nbsp;
-                    &nbsp;
-                    <table align="center" class="auto-style1">
+               <header>
+                  <h1>Ticket Pro Master</h1>
+                  <h2>We Service All Cars</h2>
+               </header>
+               <nav id="mainMenu">
+                  <ul>
+                     <li><a href="Home.aspx">Home</a></li>
+                     <li><a href="Information.aspx">Information</a></li>
+                     <li><a href="feedback.aspx">Feedback</a></li>
+                     <li><a href="AboutUs.aspx">About Us</a></li>
+                     <li><a href="RegisterLogin.aspx">Register/Login</a></li>
+                  </ul>
+               </nav>
+               <div id="clearfix">
+                  <div id="content">
+                     <br/>
+                     <table class="information">
                         <tr>
-                            <td class="auto-style2">Charles Santiago - 101084441</td>
-                            <td class="auto-style2">Nolan Honey - XXXXXXXX</td>
-                            <td class="auto-style2">Zach Lastname - XXXXXXXXX</td>
+                           <td>
+                              <h4>Services that we offer</h4>
+                              <a><img src="images/relaxation.jpg" alt="Person servicing a car"/></a>
+                              <p>
+                                 With Ticket Pro Master&#39;s system, you can easily file a ticket for your car&#39;s needs. Does your car need brake service, oil change, alignment? With our cart system you can submit a form and we will process your order. All you need is to register for an account and start!
+                              </p>
+                           </td>
                         </tr>
                         <tr>
-                            <td>Jarone Rodney - XXXXXXXXX</td>
-                            <td>Jacky Phung - XXXXXXXXX</td>
-                            <td>Jacky Phung - XXXXXXXXX</td>
+                           <td>
+                              <h4>Not just service, we do parts too</h4>
+                              <a><img src="images/heartAttack.jpg" alt="Parts Service Department" /></a>
+                              <p>At Ticket Pro Master, we have an extensive parts catalogue for most car makes and models. We don&#39;t have the parts you&#39;re looking for? Simply send us an email at <a href="mailto:TicketProMaster@gmail.com">TicketProMaster@gmail.com</a> or call us at (416) 645-7826.</p>
+                           </td>
                         </tr>
-                    </table>
-                </footer>
+                     </table>
+                  </div>
+               </div>
+               <hr/>
+               <footer>
+                  &nbsp;
+                  &nbsp;
+                  <table align="center" class="auto-style1">
+                     <tr>
+                        <td class="auto-style2">Charles Santiago - 101084441</td>
+                        <td class="auto-style2">Nolan Honey - XXXXXXXX</td>
+                        <td class="auto-style2">Zach Lastname - XXXXXXXXX</td>
+                     </tr>
+                     <tr>
+                        <td>Jarone Rodney - XXXXXXXXX</td>
+                        <td>Jacky Phung - XXXXXXXXX</td>
+                        <td>Jacky Phung - XXXXXXXXX</td>
+                     </tr>
+                  </table>
+               </footer>
             </div>
-        </div>
-    </form>
-</body>
+         </div>
+      </form>
+   </body>
 </html>

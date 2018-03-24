@@ -33,7 +33,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style4">Password:<br />
-                        <asp:TextBox ID="txtPassword" runat="server" Font-Names="Arial"></asp:TextBox>
+                        <asp:TextBox ID="txtPassword" TextMode="Password" runat="server" Font-Names="Arial"></asp:TextBox>
                     </td>
                 </tr>
             </table>
