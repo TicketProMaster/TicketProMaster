@@ -82,10 +82,10 @@
                         <br/>
                         <table class="information">
                     <tr>
-                        <td><h4>Services that we offer</h4>
+                        <td><h4>Don't forget to clock in with Dayforce</h4>
                             <a><img src="images/relaxation.jpg" alt="Person servicing a car"/></a>
                             <p>
-                                With Ticket Pro Master&#39;s system, you can easily file a ticket for your car&#39;s needs. Does your car need brake service, oil change, alignment? With our cart system you can submit a form and we will process your order. All you need is to register for an account and start!
+                                You don't get paid unless you sign with dayforce. If it's not working see Joe at his office or call line extension 546.
                             </p>
                         </td>
                     </tr>
@@ -107,13 +107,12 @@
                     <table align="center" class="auto-style1">
                         <tr>
                             <td class="auto-style2">Charles Santiago - 101084441</td>
-                            <td class="auto-style2">Nolan Honey - XXXXXXXX</td>
-                            <td class="auto-style2">Zach Lastname - XXXXXXXXX</td>
+                            <td class="auto-style2">Nolan Honey - 101077205</td>
+                            <td class="auto-style2">Zach Shaw - 101074878</td>
                         </tr>
                         <tr>
-                            <td>Jarone Rodney - XXXXXXXXX</td>
-                            <td>Jacky Phung - XXXXXXXXX</td>
-                            <td>Jacky Phung - XXXXXXXXX</td>
+                            <td>Jarone Rodney - 101077225</td>
+                            <td>Jacky Phung - 100801047</td>
                         </tr>
                     </table>
                 </footer>

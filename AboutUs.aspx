@@ -37,19 +37,36 @@
                         <br/>
                         <table class="information">
                     <tr>
-                        <td><h4>Services that we offer</h4>
-                            <a><img src="images/relaxation.jpg" alt="Person servicing a car"/></a>
-                            <p>
-                                With Ticket Pro Master&#39;s system, you can easily file a ticket for your car&#39;s needs. Does your car need brake service, oil change, alignment? With our cart system you can submit a form and we will process your order. All you need is to register for an account and start!
+                        <td><h4>Charles Kenn Santiago - 101084441</h4>
+                            <p>Hope you like this ASP project, I was responsible for making the home, information, about us, and employees page. 
+                                I suggested a cool name for the project, but it was shot down.
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <h4>Not just service, we do parts too</h4>
-                            <a><img src="images/heartAttack.jpg" alt="Parts Service Department" /></a>
-                            <p>At Ticket Pro Master, we have an extensive parts catalogue for most car makes and models. We don&#39;t have the parts you&#39;re looking for? Simply send us an email at <a href="mailto:TicketProMaster@gmail.com">TicketProMaster@gmail.com</a> or call us at (416) 645-7826.</p>
-
+                            <h4>Jacky Phung - 100801047 </h4>
+                            <p>Full time boss slayer in the realms of Blighttown with his legendary magical sword "The Sword". On the side he is a student at George
+                                Brown College studying in the Computer Programing Analyst program. With the dream of becoming the creator of all worlds.
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                        <td><h4>Nolan Honey - 101077205</h4>
+                            <p>Magic the Gathering Enthusiast. Has an addiction to cardboard. Also finds time to go to school and work.
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                        <td><h4>Jarone Rodney - 101077225</h4>
+                            <p>I am responsible for coding the ticket for, cart system, and employee ticket.
+                            </p>
+                        </td>
+                    </tr>
+                            <tr>
+                        <td><h4>Zac Shaw - 101074878</h4>
+                            <p>Database Wizard level 24. Adept in Bootstrap artistry and mock-ups for HTML pages of the 5th version.
+                            </p>
                         </td>
                     </tr>
                 </table>
@@ -62,13 +79,12 @@
                     <table align="center" class="auto-style1">
                         <tr>
                             <td class="auto-style2">Charles Santiago - 101084441</td>
-                            <td class="auto-style2">Nolan Honey - XXXXXXXX</td>
-                            <td class="auto-style2">Zach Lastname - XXXXXXXXX</td>
+                            <td class="auto-style2">Nolan Honey - 101077205</td>
+                            <td class="auto-style2">Zach Shaw - 101074878</td>
                         </tr>
                         <tr>
-                            <td>Jarone Rodney - XXXXXXXXX</td>
-                            <td>Jacky Phung - XXXXXXXXX</td>
-                            <td>Jacky Phung - XXXXXXXXX</td>
+                            <td>Jarone Rodney - 101077225</td>
+                            <td>Jacky Phung - 100801047</td>
                         </tr>
                     </table>
                 </footer>

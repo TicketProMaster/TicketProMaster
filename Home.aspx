@@ -106,13 +106,12 @@
                     <table align="center" class="auto-style1">
                         <tr>
                             <td class="auto-style2">Charles Santiago - 101084441</td>
-                            <td class="auto-style2">Nolan Honey - XXXXXXXX</td>
-                            <td class="auto-style2">Zach Lastname - XXXXXXXXX</td>
+                            <td class="auto-style2">Nolan Honey - 101077205</td>
+                            <td class="auto-style2">Zach Shaw - 101074878</td>
                         </tr>
                         <tr>
-                            <td>Jarone Rodney - XXXXXXXXX</td>
-                            <td>Jacky Phung - XXXXXXXXX</td>
-                            <td>Jacky Phung - XXXXXXXXX</td>
+                            <td>Jarone Rodney - 101077225</td>
+                            <td>Jacky Phung - 100801047</td>
                         </tr>
                     </table>
                 </footer>
